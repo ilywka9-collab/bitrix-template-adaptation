@@ -1,0 +1,135 @@
+@media (max-width: 427px)
+{
+    /*-----------------
+        Mob. header
+    -----------------*/
+    .mob_header .mob_menu_btn
+    {
+        margin-left: -5px;
+    }
+
+
+
+    .mob_header .logo_mob img
+    {
+        width: 84px;
+        height: 34px;
+    }
+
+
+
+    .mob_header .contacts .phone
+    {
+        font-size: var(--font_size);
+    }
+
+
+    .mob_header .contacts .phone .icon
+    {
+        width: 12px;
+    }
+
+
+
+    .mob_header .messengers
+    {
+        margin-left: var(--inner_gap_xs);
+
+        gap: var(--inner_gap_xs);
+    }
+
+
+
+    .mob_header.fixed .messengers
+    {
+        margin-left: 14px;
+
+        gap: 8px;
+    }
+
+
+    .mob_header.fixed .messengers a
+    {
+        height: 42px;
+
+        border-radius: var(--border_radius_s);
+    }
+
+
+
+    /*---------------
+        Mob. menu
+    ---------------*/
+    .mob_menu
+    {
+        width: 325px;
+    }
+
+
+
+    /*---------------
+        Solutions
+    ---------------*/
+    .solutions .grid_row > *
+    {
+        width: 289px;
+    }
+
+
+
+    /*----------
+        Team
+    ----------*/
+    .team .data .grid_row > *
+    {
+        width: 289px;
+    }
+
+
+
+    /*-----------
+        Steps
+    -----------*/
+    .steps .grid_row > *
+    {
+        width: 289px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .data
+    {
+        padding-inline: var(--inner_gap);
+    }
+
+
+
+    footer .contacts .ratings
+    {
+        width: calc(100% + var(--inner_gap) * 2);
+        margin-inline: calc(var(--inner_gap) * -1);
+    }
+
+
+    footer .contacts .rating
+    {
+        width: 100%;
+
+        column-gap: var(--inner_gap);
+    }
+
+
+    footer .contacts .rating .stars
+    {
+        margin-left: var(--inner_gap_s);
+    }
+
+
+    footer .contacts .rating .stars .icon
+    {
+        width: 16px;
+    }
+}
