@@ -1,0 +1,274 @@
+@media (max-width: 374px)
+{
+    /*-----------------
+        Mob. header
+    -----------------*/
+    .mob_header .mob_menu_btn
+    {
+        margin-right: var(--inner_gap_xs);
+        margin-left: -10px;
+    }
+
+
+
+    .mob_header .messengers a.whatsapp_link
+    {
+        display: none;
+    }
+
+
+
+    /*---------------
+        Mob. menu
+    ---------------*/
+    .mob_menu
+    {
+        width: 279px;
+    }
+
+
+    .mob_menu .head
+    {
+        padding-inline: var(--inner_gap) var(--inner_gap_l);
+    }
+
+
+    .mob_menu .menu .item > a
+    {
+        height: 59px;
+        padding-inline: var(--inner_gap) var(--inner_gap_l);
+
+        font-size: 18px;
+    }
+
+
+    .mob_menu .cart_link,
+    .mob_menu .search_btn
+    {
+        height: 59px;
+        padding-inline: var(--inner_gap) var(--inner_gap_l);
+    }
+
+
+
+    .mob_menu .back_btn
+    {
+        padding-inline: var(--inner_gap) var(--inner_gap_l);
+
+        font-size: 20px;
+    }
+
+
+    .mob_menu .back_btn span
+    {
+        width: calc(100% - 40px);
+    }
+
+
+    .mob_menu .menu .sub .sub_services
+    {
+        padding-inline: var(--inner_gap) var(--inner_gap_l);
+    }
+
+
+    .mob_menu .menu .sub .sub_services .icon + *
+    {
+        width: 100%;
+        margin-top: var(--inner_gap);
+    }
+
+
+    .mob_menu .menu .sub .links a
+    {
+        height: 59px;
+        padding-inline: var(--inner_gap) var(--inner_gap_l);
+
+        font-size: 18px;
+    }
+
+
+
+    .mob_header.fixed .contacts .phone .icon
+    {
+        display: none;
+    }
+
+
+    .mob_header.fixed .messengers
+    {
+        margin-left: 8px;
+
+        gap: 6px;
+    }
+
+
+    .mob_header.fixed .messengers a
+    {
+        height: 36px;
+
+        border-radius: 10px;
+    }
+
+
+    .mob_header.fixed .messengers a.whatsapp_link
+    {
+        display: flex;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form
+    {
+        --form_input_height: 56px;
+    }
+
+
+    .form .submit_btn
+    {
+        height: 64px;
+    }
+
+
+
+    /*---------------
+        Solutions
+    ---------------*/
+    .solutions .grid_row > *
+    {
+        width: 243px;
+    }
+
+
+    .solutions .item .label
+    {
+        padding-inline: var(--inner_gap);
+    }
+
+
+    .solutions .item .name,
+    .solutions .item .solution,
+    .solutions .item .result
+    {
+        padding-block: var(--inner_gap);
+        padding-inline: var(--inner_gap);
+    }
+
+
+    .solutions .item .btn
+    {
+        margin-top: 0;
+    }
+
+
+
+    /*----------
+        Team
+    ----------*/
+    .team .head .cont
+    {
+        padding-bottom: 50px;
+    }
+
+
+    .team .data .grid_row > *
+    {
+        width: 243px;
+    }
+
+
+    .team .data .item
+    {
+        padding-block: 30px var(--inner_gap);
+        padding-inline: var(--inner_gap);
+    }
+
+
+
+    /*-----------
+        Steps
+    -----------*/
+    .steps .grid_row > *
+    {
+        width: 243px;
+    }
+
+
+    .steps .item .info
+    {
+        padding-block: var(--inner_gap_l) var(--inner_gap);
+        padding-inline: var(--inner_gap);
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .phone
+    {
+        font-size: 18px;
+    }
+
+
+    .contacts_info .actions .item
+    {
+        padding-block: var(--inner_gap);
+        padding-inline: var(--inner_gap);
+    }
+
+
+    .contacts_info .person
+    {
+        top: var(--outside_gap);
+
+        margin-right: 0;
+    }
+
+
+    .contacts_info .person,
+    .contacts_info .person .photo
+    {
+        width: 72px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .data
+    {
+        padding-inline: var(--inner_gap);
+    }
+
+
+
+    footer .contacts .ratings
+    {
+        width: calc(100% + var(--inner_gap) * 2);
+        margin-inline: calc(var(--inner_gap) * -1);
+    }
+
+
+    footer .contacts .rating
+    {
+        width: 100%;
+
+        column-gap: var(--inner_gap);
+    }
+
+
+    footer .contacts .rating .stars
+    {
+        margin-left: var(--inner_gap_s);
+    }
+
+
+    footer .contacts .rating .stars .icon
+    {
+        width: 16px;
+    }
+}

@@ -1,0 +1,327 @@
+@media (max-width: 767px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --cont_padding: 42px;
+        --block_head_offset_l: 32px;
+        --block_head_offset: 24px;
+        --block_padding_l: 32px;
+        --outside_gap_l: 48px;
+        --outside_gap: 42px;
+    }
+
+
+
+    /*-----------------
+        Mob. header
+    -----------------*/
+    .mob_header
+    {
+        padding-block: 19px var(--inner_gap_xxl);
+    }
+
+
+
+    .mob_header .mob_menu_btn
+    {
+        margin-right: 5px;
+    }
+
+
+
+    .mob_header .logo_mob img
+    {
+        width: 107px;
+        height: 44px;
+    }
+
+
+
+    .mob_header .messengers
+    {
+        gap: var(--inner_gap_s);
+    }
+
+
+
+    .mob_header .contacts
+    {
+        margin-left: 0;
+    }
+
+
+    .mob_header .contacts .phone .icon
+    {
+        display: none;
+    }
+
+
+
+    .mob_header.fixed .contacts
+    {
+        margin-left: var(--block_padding_l);
+    }
+
+
+    .mob_header.fixed .logo_mob img,
+    .mob_header.fixed .logo_mob img:nth-child(2)
+    {
+        display: none;
+    }
+
+
+    .mob_header.fixed .logo_mob img:nth-child(3)
+    {
+        display: block;
+    }
+
+
+    .mob_header.fixed .contacts .phone .icon
+    {
+        display: block;
+    }
+
+
+
+    /*---------------
+        Mob. menu
+    ---------------*/
+    .mob_menu .scroll
+    {
+        gap: var(--inner_gap_l);
+    }
+
+
+    .mob_menu .messengers a.tg_link span
+    {
+        display: none;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .desc
+    {
+        width: 472px;
+        margin-top: var(--inner_gap);
+    }
+
+
+    .first_section .form
+    {
+        margin-top: 27px;
+        padding-block: var(--inner_gap_xxl);
+        padding-inline: var(--inner_gap_xxl);
+    }
+
+
+    .first_section .form .columns > *
+    {
+        width: calc(100% - var(--form_columns_gap));
+    }
+
+
+    .first_section .form .agree
+    {
+        margin-inline: -4px;
+    }
+
+
+    .first_section .image
+    {
+        height: calc(100% - 316px);
+    }
+
+
+
+    /*-------------
+        Mission
+    -------------*/
+    .mission .grid_row
+    {
+        --gap_x: var(--inner_gap_xxl);
+    }
+
+
+
+    /*---------------
+        Solutions
+    ---------------*/
+    .solutions .block_head .title
+    {
+        width: 297px;
+        max-width: 100%;
+    }
+
+
+    .solutions .block_head .swipe_tip
+    {
+        bottom: 53px;
+    }
+
+
+    .solutions .block_head .swipe_tip br
+    {
+        display: block;
+    }
+
+
+
+    /*----------
+        Team
+    ----------*/
+    .team .head .grid_row
+    {
+        --gap_x: var(--inner_gap_l);
+        --gap_y: var(--inner_gap_l);
+        --items_per_line: 1;
+    }
+
+
+    .team .head .item .name
+    {
+        width: 100%;
+    }
+
+
+
+    /*-------------
+        History
+    -------------*/
+    .history .block_head .title
+    {
+        width: 332px;
+        max-width: 100%;
+    }
+
+
+    .history .block_head .swipe_tip
+    {
+        bottom: 51px;
+    }
+
+
+    .history .swiper-slide
+    {
+        width: 247px;
+    }
+
+
+
+    /*-----------
+        Steps
+    -----------*/
+    .steps .block_head .swipe_tip
+    {
+        bottom: 53px;
+    }
+
+
+    .steps .block_head .swipe_tip br
+    {
+        display: block;
+    }
+
+
+
+    .steps .item .desc br
+    {
+        display: none;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .cont
+    {
+        padding-block: var(--outside_gap) calc(var(--outside_gap) + 14px);
+    }
+
+
+    .contacts_info .block_head .title
+    {
+        width: 292px;
+        max-width: 100%;
+    }
+
+
+    .contacts_info .block_head .title br
+    {
+        display: none;
+    }
+
+
+    .contacts_info .actions .grid_row
+    {
+        --items_per_line: 1;
+        --gap_x: var(--inner_gap);
+        --gap_y: var(--inner_gap);
+    }
+
+
+    .contacts_info .actions .item br
+    {
+        display: block;
+    }
+
+
+    .contacts_info .form
+    {
+        --button_size: 100%;
+    }
+
+
+    .contacts_info .form .line
+    {
+        width: 100%;
+    }
+
+
+    .contacts_info .form .agree
+    {
+        margin-top: var(--inner_gap_l);
+    }
+
+
+    .contacts_info .person
+    {
+        top: 45px;
+
+        padding: 0;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .bottom
+    {
+        align-content: flex-end;
+        align-items: flex-end;
+
+        padding-block: var(--inner_gap_xl);
+    }
+
+
+    footer .bottom .logo
+    {
+        display: none;
+    }
+
+
+    footer .requisites
+    {
+        display: flex;
+        flex-direction: column;
+
+        text-align: right;
+    }
+}
